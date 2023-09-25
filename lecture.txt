@@ -1,0 +1,15 @@
+var abc; (undefined data type) 
+var xyz = ''; (this is not undefined.. this is empty string)
+var myVal = null; (this is also a value)
+
+!=  not equal to (will not check data type)
+!== not equal to ( will check data type also)
+
+
+
+(!(age >= 18))  not sign will put bracket se pehle
+if we want to use ! not sign with = it will put side by side
+
+
+strict case sensitive.
+toLowerCase (to change case of prompt)
