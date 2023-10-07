@@ -13,3 +13,9 @@ if we want to use ! not sign with = it will put side by side
 
 strict case sensitive.
 toLowerCase (to change case of prompt)
+// data base are of two type. relational and non relational.. 
+// relational data base are in table format.(my sql , postgree sql, sql lite, amazone aurora, oracle use privately ).
+// non relational mian document store krate hian.. user ki info save krte hian document mai... without any table.. 
+// javascript is synchronous language read code line by line..
+
+// a synchoronus lang run line by line but when there is a program taking time it will perform next task.
