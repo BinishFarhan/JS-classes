@@ -121,40 +121,51 @@
 
 // TO FIND OUT WORD OR GROUP OF WORDS AND TO REPLACE IT.
 
-//using slice method 1
+//USING SLICE METHOD // in this method we use for loop and if statements inside it.
+// by mam
 
-var text = "i am happy. There is world war ii. hello world war ii"
-var search = "happy"
+/*var text = "i am happy. There is world war ii. hello world war ii"
+var search = "world war ii"
 var len = search.length //12
 for (let i = 0; i < text.length; i++) {
     if(text.slice(i, i + len) === search){
-    text = text.slice(0, i) + "unHappy" + text.slice(i+len)
+    text = text.slice(0, i) + "second world war" + text.slice(i+len)
     }
 }
-console.log(text)
+console.log(text)*/
+
+// practice
 
 // var text = "i am happy because i got 20 numbers out of 25 in javascript quiz but i am happy also as i got 100% in html"
 // var search = "happy"
 // var len = search.length //12
 // for (let i = 0; i < text.length; i++) {
 //     if(text.slice(i, i + len) === search){
-//     text = text.slice(0, ) + "unhappy" + text.slice(i+len)
+//     text = text.slice(0, i ) + "sad" + text.slice(i+len)
 //     }
 // }
 // console.log(text)
 
-// var str = "i am happy because i got 20 numbers out of 25 in javascript quiz but i am happy also as i got 100% in html"
-// var word = "happy"
-// var len = word.length
-// for (let i = 0; i < str.length; i++) {
-//         if(str.slice(i, i + len) === word){
-//         str = str.slice(0, i) + "unhappy" + str.slice(i+len)
-//         }
-//     }
-//     console.log(str)
+//  practice 2
 
-// using indexof
-// var text = "iam happy. 0 There is world war ii. hello world war ii"
+// var name1 = "Binish farooq";
+// var search = "farooq"
+// var len = search.length
+
+// for(let i = 0; i < name1.length; i++){
+//     if(name1.slice(i, i+len) === search){
+//         name1 =  name1.slice(0,i) + "Farhan" + name1.slice(i+len)
+//     }
+// }
+// console.log("🚀 ~ file: string.js:26 ~ name1:", name1)
+
+
+
+// USING INDEX OF METHOD // Drawback is it only replace starting index word. not multiple words.
+// in this method we use if statements without for loop
+// BY MAM 
+
+// var text = "iam happy. There is world war ii. hello world war ii"
 // var search = "world war ii"
 // var len = search.length //12
 // var searchIndex = text.indexOf(search) // address -1
@@ -164,27 +175,67 @@ console.log(text)
 //     }
 // console.log(text)
 
-// var searchIndex1 = text.indexOf('i', 2) // address 0
-// console.log("🚀 ~ file: strings.js:54 ~ searchIndex1:", searchIndex1)
+// practice
 
-
-
-
-
-// to search and replace word or group of words.
-//  using for loop and slice
-// var name1 = "Binish farooq";
-// var search = "farooq"
-// var len = search.length
-
-// for(let i = 0; i < name1.length; i++){
-//     if(name1.slice(i, i+len)=== search){
-//         name1 =  name1.slice(0,i) + "Farhan" + name1.slice(i+len)
-//     }
+// var info = "i am happy because i got 20 numbers out of 25 in javascript quiz but i am happy also as i got 100% in html"
+// var wordToSearch = "happy"
+// var len = wordToSearch.length
+// var firstChar = info.indexOf(wordToSearch)
+// if(firstChar !== -1){
+//     info = info.slice(0,firstChar) + "sad" + info.slice(firstChar+len)
 // }
-// console.log("🚀 ~ file: string.js:26 ~ name1:", name1)
+// console.log("🚀 ~ file: string.js:181 ~ info:", info)
 
-// using if only by mam repo
+// var wordToSearch2 = "20"
+// var len2 = wordToSearch2.length
+// var firstChar1 = info.indexOf(wordToSearch2)
+// if(firstChar1 !== -1){
+//     info = info.slice(0,firstChar1) + "15" + info.slice(firstChar1+len2)
+// }
+// console.log("🚀 ~ file: string.js:181 ~ info:", info)
+
+
+// METHOD OF REPLACE
+// it replace the word which comes first. 
+
+// var info = "i am happy because i got 20 numbers out of 25 in javascript quiz but i am happy also as i got 100% in html"
+// var newInfo = info.replace("happy" , "sad")
+// console.log("🚀 ~ file: string.js:202 ~ newInfo:", newInfo)
+
+// for global replace.. 
+// /word/g or use replaceAll
+// var info = "i am happy because i got 20 numbers out of 25 in javascript quiz but i am happy also as i got 100% in html"
+// // var newInfo = info.replace(/happy/g , "sad") // /forward slash use in rigix
+// var newInfo = info.replaceAll("happy" , "sad") 
+// console.log("🚀 ~ file: string.js:202 ~ newInfo:", newInfo)
+
+// METHOD OF parseInt / parseFloat / Number (these methods converts string into integar)
+// parseInt convert string into number but if there is decimal no it doesn't round of it .. jst remove the number after decimal.
+// parseFloat convert string into number but if there is decimal it gives whole string as it is. 
+// we also use + to convert string into number but it gives whole string as it is. 
+
+// var num = prompt('enter a number')
+// var newNum = parseInt(num) // 3
+// var newNum1 = +(num)
+// var newNum2 = parseFloat(num)
+// var newNum3 = Number(num)
+// console.log("🚀 ~ file: string.js:222 ~ newNum3:", newNum3)
+// console.log("🚀 ~ file: string.js:221 ~ newNum2:", newNum2)
+// console.log("🚀 ~ file: string.js:219 ~ newNum1:", newNum1)
+// console.log("🚀 ~ file: string.js:217 ~ newNum:", newNum)
+
+// METHOD to convert number into string
+// toString 
+
+var num = 344.34
+var newNum = num.toString()
+console.log("🚀 ~ file: string.js:232 ~ newNum:", typeof(newNum))
+con
+
+
+
+
+
 
 
 

@@ -18,4 +18,8 @@ toLowerCase (to change case of prompt)
 // non relational mian document store krate hian.. user ki info save krte hian document mai... without any table.. 
 // javascript is synchronous language read code line by line..
 
+
 // a synchoronus lang run line by line but when there is a program taking time it will perform next task.
+
+console.log always show string in white
+console.log always show number in blue
