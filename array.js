@@ -46,3 +46,10 @@
  console.log(count);
 
 
+//array method
+ //join (to convert array into string)
+
+ var arr = ["farooq" , "binish" , "lamna"]
+console.log("🚀 ~ file: string.js:247 ~ arr:", arr.join())
+console.log("🚀 ~ file: string.js:247 ~ arr:", arr.reverse())
+console.log("🚀 ~ file: string.js:247 ~ arr:", arr.sort())

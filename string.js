@@ -227,10 +227,24 @@ console.log(text)*/
 // METHOD to convert number into string
 // toString 
 
-var num = 344.34
-var newNum = num.toString()
-console.log("🚀 ~ file: string.js:232 ~ newNum:", typeof(newNum))
-con
+// var num = 344.34
+// var newNum = num.toString()
+// console.log("🚀 ~ file: string.js:232 ~ newNum:", typeof(newNum))
+
+
+//METHOD OF split 
+// it split string and form its array.
+
+var name = "Binish Farooq"
+console.log(name.split("")) // it split string into individual letter( each letter have new index)
+console.log(name.split(" ")) // it split with space. ["Binish" , "Farooq"]
+var name1 = "Binish-Fahan"
+console.log(name1.split("-")) // it split with space. ["Binish" , "Farooq"]
+console.log(name1.split()) // it split with space. ["Binish" , "Farooq"]
+
+
+
+
 
 
 
