@@ -1,6 +1,7 @@
 // Date ..
 // it is a keyword of JS .
 // Date.now is a method which targets our system date but it gives date in milliseconds format which is not readable.
+//  we cant call any method on Date.now()
 // var date = Date.now()
 // console.log("🚀 ~ file: date.js:3 ~ date:", date)
 
@@ -65,16 +66,35 @@
 // var date = moment().format('d')
 // console.log("🚀 ~ file: date.js:66 ~ date:", date)
 
-var birthDay = moment(new Date("21 June 1989"))
+// var birthDay = moment(new Date("21 June 1989"))
 // var dateToday = moment(new Date())
 // console.log(dateToday.diff(birthDay, "year"))
 
 //difference by using method of fromNow.
-console.log(birthDay.fromNow())
+// console.log(birthDay.fromNow())
+
+
+// var birthDay = new Date("6/21/1989")
+// console.log("🚀 ~ file: date.js:78 ~ birthDay:", birthDay)
+
+// // to find out birth day of next year.
+// var birthDay = new Date("6/21/1989")
+// var dateToDay = new Date('6/21/2024');
+// var dayName = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]; // week start from sun(o) ends at sat(6)
+// var birthDay24 = dayName[dateToDay.getDay()]
+// console.log("🚀 ~ file: date.js:84 ~ age:", birthDay24)
 
 
 // "set" methods of date // setDay, setTime, setSec etc
 
-var date = new Date();
-date.setMonth("8")
-console.log("🚀 ~ file: date.js:79 ~ date:", date)
+// var date = new Date();
+// date.setMonth("8")
+// console.log("🚀 ~ file: date.js:79 ~ date:", date)
+
+// to find out birth day of next year using set method.
+var birthDay = new Date("6/21/1989")
+console.log("🚀 ~ file: date.js:96 ~ birthDay:", birthDay)
+birthDay.setFullYear(2024);
+console.log("🚀 ~ file: date.js:96 ~ birthDay:", birthDay)
+
+// we can set time day date year on previous or future and on current..

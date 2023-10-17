@@ -23,3 +23,5 @@ toLowerCase (to change case of prompt)
 
 console.log always show string in white
 console.log always show number in blue
+
+npm node package manager is hub having millions of libraries.(packages) by different developers.

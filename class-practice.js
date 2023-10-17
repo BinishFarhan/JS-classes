@@ -2,12 +2,12 @@
 // its a method in which we use variable to store our answer
 // var arr = [2,3,4,5,'f', 't', 'r', "alkdjf"]
 // let count = 0
-// for(let i = 1; i<=arr.length; i++){
-//  count++;
-//  // count = count + 1
-//  // count += count
-// }
- // to get know the length of array without using arr.length .. advanced for loop
+// // for(let i = 1; i<=arr.length; i++){
+// //  count++;
+// //  // count = count + 1
+// //  // count += count
+// // }
+//  // to get know the length of array without using arr.length .. advanced for loop
 // for(const item in arr){
 //     count ++
 // }
@@ -15,7 +15,7 @@
 
 
 // var arr = [2,3,4,5,'f', 't', 'r', "alkdjf"]
-// for(let i = 1; i<=arr.length; i++){
+// for(let i = 1; i<= arr.length; i++){
 //  lengthOfArr = i
 // }
 // console.log("length of arr =" + lengthOfArr)
@@ -31,17 +31,17 @@
 // }
 // console.log(storeA)
 
-//=== Question 3
+// //=== Question 3
 // var numberArr = [1,3,'a', 'b', 'f', 'a']
 // for(let i = 0; i< numberArr.length; i++){
 //     var type = typeof(numberArr[i])
 //     console.log(type)
 // }
 
-//=== Question 3 by mam
+// //=== Question 3 by mam
 // var numberArr = [1,3,'a', 'b', 'f', 'a']
 // var count = 0;
-// for(let i = 0; i< numberArr.length; i++){
+// for(let i = 0; i < numberArr.length; i++){
 // if(typeof numberArr[i] === 'number' )
 //     count++
 // }
@@ -51,7 +51,7 @@
 
 // nested loops srf boht xrori wqt pr lgain. inc. nested loop will inc. complexity of program.
 
-// ===Question 4===
+// // ===Question 4===
 // var students= ['faiza' , 'umaima' , 'nadia'];
 // for(let i = 0; i < students.length; i++){
 //     console.log(`Good Morning ${students[i]}`)
@@ -61,12 +61,12 @@
 // laikin agr 1 se ziyada line hogi to wo count nhi hogi loop mai ya if mai .. phir wo alag se count hogi..
 
 
-var numberArr = [2,2,10];
-var count = 0
-for(let i = 0; i< numberArr.length; i++){
-    count = count + numberArr[i];
-}
-console.log(`total of numberArr =  ${count}`)
+// var numberArr = [2,2,10];
+// var count = 0
+// for(let i = 0; i< numberArr.length; i++){
+//     count = count + numberArr[i];
+// }
+// console.log(`total of numberArr =  ${count}`)
 
 // var userInput = prompt(`Enter today's temperature`) 
 // if(userInput >= 25){
@@ -90,15 +90,11 @@ console.log(`total of numberArr =  ${count}`)
 // console.log("originalprice" , price)
 // console.log("price after 10% increament" , increasedPrice)
 
-var price = [500 , 50, 200];
-console.log("originalprice" , price)
+// var price = [500 , 50, 200];
+// console.log("originalprice" , price)
 
-for(let i = 0; i < price.length; i++ ){
-    var percent = price[i]*0.1
-   price[i] = percent + price[i]
-   
-
-   
-   
-}
-console.log("price after 10% increament" , price)
+// for(let i = 0; i < price.length; i++ ){
+//     var percent = price[i]*0.1
+//    price[i] = percent + price[i]
+// }
+// console.log("price after 10% increament" , price)

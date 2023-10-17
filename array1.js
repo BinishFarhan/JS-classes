@@ -27,9 +27,13 @@
 // splice and slice work in sequence
 
 // var pets = ['dog' , 'cat' , 'fly' , 'bug' , 'butterfly' , 'insects'];
-// var wildAnimals = pets.slice(3)
-// // pets.splice(1 , 1 , 'bug');
-// when required last 1 give -2 
+// var wildAnimals = pets.slice(-1)
+// console.log("🚀 ~ file: array1.js:31 ~ wildAnimals:", wildAnimals)
+// console.log("🚀 ~ file: array1.js:30 ~ pets:", pets)
+// pets.splice(1 , 1 , 'bug');
+// console.log("🚀 ~ file: array1.js:34 ~ pets:", pets)
+// // when required last 1 give -2 
+
 // console.log(wildAnimals);
 
 // var fruits = ['oranges' , 'banana' , 'apple' , 'cherry' , 'figs' , 'grapes' , 'mango' , 'watermelon' , 'melon'];
@@ -213,9 +217,9 @@
 
 //======Q13==
 
-var score = [ 'Audi' , 'Volvo' , 'Ford' ,'Lamborghini']
+// var score = [ 'Audi' , 'Volvo' , 'Ford' ,'Lamborghini']
 
-document.write(score)
-var copied = score.slice(2,3)
-document.write(copied)
+// document.write(score)
+// var copied = score.slice(2,3)
+// document.write(copied)
 

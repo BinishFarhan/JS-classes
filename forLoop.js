@@ -4,6 +4,8 @@
 // for(let i = 1; i <= userInput2; i++){
 //     console.log(userInput + "*" + i + "=" + userInput * i)
 // }
+
+
 // var userInput = prompt('Enter your city')
 // var cities = ['dubai', 'USA', 'uae', 'karachi', 'iran' , 'mexico']
 // var flag = true
@@ -22,7 +24,7 @@
 
 // var students = ["MAHAM","Laiba", "Ayesha", "Atrooba", "binish", "Maria"]
 // var progress = ["beginner", "intermediate", "advance", "pro"];
-// //for students => progress
+// // for students => progress
 // for (let i = 0 ; i < students.length; i++){
         
 //     for(let j = 0; j < progress.length; j++){
@@ -32,15 +34,15 @@
 
 
 
-for(let i = 1 ; i <= 5 ; i = i++){
+// for(let i = 1 ; i <= 5 ; i = i++){
     
-    for(let j = 1 ; j < 5 ; j++){
-        console.log( j )
+//     for(let j = 1 ; j < 5 ; j++){
+//         console.log("hello world")
 
-    }
+//     }
 
-    // document.write( '<br>');
-}
+//     document.write( '<br>');
+// }
 
 
 // for(var i = 1 ; i <= 10 ; i++){
@@ -50,7 +52,8 @@ for(let i = 1 ; i <= 5 ; i = i++){
 // var cities = ['dubai', 'USA', 'uae', 'iran', 'karachi' , 'mexico']
 // var cityToCheck = prompt('enter city')
 // for (let i = 0; i <= cities.length - 1; i++) {
-//     console.log (i , cities[i])
+//     if(cityToCheck === cities[i]){
+//     console.log ("city found")}
 // }
 
 // we use let in for because we change the value of i again and again.. const will not the change the value
@@ -67,17 +70,18 @@ for(let i = 1 ; i <= 5 ; i = i++){
 // }
 
 // console.log(num)
+
 // var cities =["NY","LA", "CG", "ISB", "RWP", "HT", "LH"]
 // for(let i=0; i<=cities.length-1; i++){
-//     cities[i] = cities[i] + " city";
+//     cities[i] +=  " city";
 // }
 // console.log(cities);
 
 
 
 // }
-// var arr = ['Ghous' , 'Ahmed' , 'Zain'];
 
+// var arr = ['Ghous' , 'Ahmed' , 'Zain'];
 
 // for(let i = arr.length-1 ; i >=0; i--){
            
@@ -88,7 +92,7 @@ for(let i = 1 ; i <= 5 ; i = i++){
 
 
 
-// var arr=[];
+// var arr = [];
 // var userInput0 = prompt("Enter item for index 0")
 // var i_1 = prompt("Enter item for index 1")
 // var i_2 = prompt("Enter item for index 2")
@@ -97,12 +101,12 @@ for(let i = 1 ; i <= 5 ; i = i++){
 // var i_5 = prompt("Enter item for index 5")
 // arr.push(userInput0, i_1, i_2, i_3, i_4, i_5);
 
-// console.log(`No.of Items : ${arr.length}
-// Items:`)
+// console.log(arr)
 
 // for(let i=0; i < arr.length; i++){
 //        console.log(arr[i])
 //     }
+
 // var num= [];    
 // for(let i=1; i <= 15; i++){
 //     num.push(i)
@@ -156,9 +160,10 @@ for(let i = 1 ; i <= 5 ; i = i++){
 // }
 
 
-// //======QUESTION 9====
+// // //======QUESTION 9====
 // var arr = [34, 12, 78, 91, 12];
 // var largNum = arr[0];
+ 
 
 // for(let i=0; i <arr.length; i++ ){
 //     if(arr[i] > largNum){
@@ -189,13 +194,13 @@ for(let i = 1 ; i <= 5 ; i = i++){
 // var largNum;
 
 // for(let i=1; i < 100; i++ ){
-//     console.log(i*5)
     
 //     if(i*5 <= 100 ){
-//     break
+//         console.log(i*5)
+//         break
 //     }
 // }
-// }
+
 // document.write(`Array Items: ${arr} <br>
 // The smallest number is ${smallNum} <br>
 // The largest number is ${largNum}`)
@@ -206,13 +211,13 @@ for(let i = 1 ; i <= 5 ; i = i++){
 //     document.write(i ,j ,"<br>")
 // }
 
-// var arr = [["ghous" , "zain"],['khan', 'amjad']];
 
 
-// for(let i = 0; i < arr.length; i++){
-//     for(let j = 0; j < arr[i].length; j++){
-//         console.log(arr[i][j])
-//     }
+// // var arr = [["ghous" , "zain"],['khan', 'amjad']];
+// // for(let i = 0; i < arr.length; i++){
+// //     for(let j = 0; j < arr[i].length; j++){
+// //         console.log(arr[i][j])
+// //     }
 // }
 
 

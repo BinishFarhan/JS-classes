@@ -38,18 +38,28 @@
  // splice syntax
  // arrayname.splice(index no, count, " " . .........)
 
- var count = [1,2,3,6,7,8];
- count.splice(3,0, 4 , 5);
-//  count.splice(8,0,9,10);
- count.push(9, 10);
+//  var count = [1,2,3,6,7,8];
+//   console.log("🚀 before splice", count)
+//   var rtn = count.splice(0,3, 6 , 100,"karachi");
+//   console.log("🚀 ~ file: array.js:43 ~ rtn:", rtn)
+//   console.log("🚀after splice:", count)
+  
+// //  count.splice(8,0,9,10);
+//  var rten = count.push(9, 10);
+//  console.log("🚀 ~ file: array.js:49 ~ rten:", rten)
+//  console.log("🚀 after push", count)
 
- console.log(count);
+// console.log("🚀 ~ file: array.js:52 ~ count:",count.join())
+
+//  console.log(count);
 
 
 //array method
  //join (to convert array into string)
 
  var arr = ["farooq" , "binish" , "lamna"]
-console.log("🚀 ~ file: string.js:247 ~ arr:", arr.join())
-console.log("🚀 ~ file: string.js:247 ~ arr:", arr.reverse())
-console.log("🚀 ~ file: string.js:247 ~ arr:", arr.sort())
+ 
+ console.log("🚀 ~ file: array.js:62 ~ join:", join)
+// console.log("🚀 ~ file: string.js:247 ~ arr:", arr.join(":"))
+// console.log("🚀 ~ file: string.js:247 ~ arr:", arr.reverse())
+// console.log("🚀 ~ file: string.js:247 ~ arr:", arr.sort())
