@@ -6,7 +6,8 @@
 
 // students
 
-// ======= PRACTICE ARRAY AND ITS FUNCTION =======
+// ======= PRACTICE ARRAY AND ITS METHOD =======
+
 // var shoppingList = ['Milk' , 'Bread' , 'Apples' ]
 // var shoppingList = ['Milk' , 'Bread' , 'Apples' , 'Milk1' , 'Bread1' , 'Apples1' ,'Milk2' , 'Bread2' , 'Apples2','Milk3' , 'Bread3' , 'Apples3' ]
 // console.log(shoppingList);
@@ -33,17 +34,18 @@
 
 
 // ====== SPLICE FUNCTION =====
+
 // IT ADD OR REMOVE FROM WHERE DO WE WANT.
- // splice (index no, count(to dlt), )
- // splice syntax
- // arrayname.splice(index no, count, " " . .........)
+// splice (index no, count(to dlt), )
+// splice syntax
+// arrayname.splice(index no, count, " " . .........)
 
 //  var count = [1,2,3,6,7,8];
 //   console.log("🚀 before splice", count)
 //   var rtn = count.splice(0,3, 6 , 100,"karachi");
 //   console.log("🚀 ~ file: array.js:43 ~ rtn:", rtn)
 //   console.log("🚀after splice:", count)
-  
+
 // //  count.splice(8,0,9,10);
 //  var rten = count.push(9, 10);
 //  console.log("🚀 ~ file: array.js:49 ~ rten:", rten)
@@ -54,12 +56,30 @@
 //  console.log(count);
 
 
-//array method
- //join (to convert array into string)
+//====ARRAY METHOD
+// var arr = ["farooq", "binish", "lamna"]
 
- var arr = ["farooq" , "binish" , "lamna"]
- 
- console.log("🚀 ~ file: array.js:62 ~ join:", join)
+// 1.join (to convert array into string)
+// console.log("🚀 ~ file: array.js:62 ~ join:", join)
 // console.log("🚀 ~ file: string.js:247 ~ arr:", arr.join(":"))
+
+// Reverse...
 // console.log("🚀 ~ file: string.js:247 ~ arr:", arr.reverse())
+
+// Sort..
 // console.log("🚀 ~ file: string.js:247 ~ arr:", arr.sort())
+
+// concat array.
+
+// var arr = [1,2,3,4]
+// var arr2 = [5,6,7]
+// var newArr = arr.concat(arr2)
+
+//  DELETE at specific index leaving it place undefined
+
+// delete arr2[1]
+// console.log("🚀 ~ file: array.js:38 ~ newArr:", arr2)
+
+
+
+
