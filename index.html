@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
@@ -41,30 +41,53 @@
     
     <br>
     <br>
-    
-    <input type="text" placeholder="binishfarooq_89@hotmial.com" onmouseover="this.style.border='2px solid red'"> -->
+     -->
+    <!-- <input type="text" placeholder="binishfarooq_89@hotmial.com" onmouseover="this.style.border='2px solid red'">  -->
 
 
+    <!-- anchor tag creates a link so it always require href so when we put event on a tag we write javascript:void(0) in href to make it clickable item.-->
     <!-- ==== javascript void is used on anchor tag in href attribute===== -->
     <!-- <a href="Javascript:void(0)" onclick="alert('I am a link')">facebook</a> -->
-    <br />
+    <!-- <br /> -->
 
     <!-- ====== we can change style by using eventlisteners.====>
     === when onmouseover is used to change the style, the style will changed permanently to change it to previous style when mouse is not over on it use on mouse out event listeners.     -->
     <!-- <h1 onmouseover="this.style.color='green'" onmouseout="this.style.color='black'">I am a color changing heading</h1> -->
-    
-    
+
+
     <!-- =====same for image===> -->
     <!-- <img src="images/before.png" onMouseover="src='images/after.png'" onMouseout="src='images/before.png'" alt="" /> -->
 
 
-    <button id="btn1" name="abc"><b><i>Submit 1</i></b></button>
+    <!-- when we want to change an image onmouseover event by using function we put this as argument in function. -->
+    <!-- "this" will get whole image tag in javascript -->
+    <!-- and when u change the style of anything we use this.style.(any css properties) -->
+    <!-- <div id="heart"  >
+        <img width="200px" src="./images/heart.jpeg" id="beat" onmouseover="heartBeat(this)" >
+        <h2 id="heading" onmouseover="heartBeat(this)" >Life's rhythmic dance,  <br> my beating heart.</h2>
+    </div>
+ -->
+    <!-- <button id="btn1" name="abc"><b><i>Submit 1</i></b></button>
     <br>
-    <button id="btn2" name="abc"><b><i>Submit 2</i></b></button>
+    <button id="btn2" name="abc"><b><i>Submit 2</i></b></button> -->
 
+    <!-- <input type="text" style="width: 300px; border: 2px solid black;" onkeypress="abc()"> -->
 
 
     <!-- <a href="https://docs.google.com/presentation/d/1iVcMJcy1vVbPOpAFVzyFnPJdWqsNRB2NcJzM1HvP2VA/edit?usp=sharing">Html doc</a> -->
+
+        <!-- <ul>
+            <li>hdivello</li>
+            <li>world</li>
+        </ul> -->
+
+        <div id="prac">
+            
+            <button id="button" onclick="para()">Click Me</button>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus vero facere doloribus consequatur! Dignissimos id, nesciunt illum accusantium ratione, omnis suscipit odit aspernatur neque obcaecati rem alias voluptates minus nisi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis itaque alias illo. Voluptas placeat ad nulla blanditiis est nam dignissimos vitae expedita minima deserunt. Voluptatem nesciunt dolor excepturi quasi repellendus?</p>
+        </div>
+
     <script src="DOM.js"></script>
 
 

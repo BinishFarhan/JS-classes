@@ -1,0 +1,28 @@
+#heart{
+    position: relative;
+}
+#heading{
+    position: absolute;
+    top : 90px;
+    left : 55px;
+    font-size: 10px;
+    text-align: center;
+    
+    /* transform: scale(2); */
+
+}
+
+
+.para{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+#button{
+    margin: auto;
+
+    border: 2px solid rgb(3, 3, 37);
+    border-radius: 20%;
+    background-color: lightblue;
+}

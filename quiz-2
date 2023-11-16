@@ -1,0 +1,130 @@
+// var str =  "Pakistan is the 33rd-largest country in the world by area and the second largest in South Asia"
+// console.log(str.length);
+// console.log(str[9]);
+// console.log(str.charAt(21));
+// console.log(str.charCodeAt(9));
+// console.log(str.indexOf("l"));
+// console.log(str.lastIndexOf("l"));
+// console.log(str.indexOf('largest'));
+// console.log(str.indexOf("2"));
+// console.log(str.lastIndexOf('2'));
+// console.log(str.lastIndexOf('largest'));
+// console.log(str.slice(0,3));
+// console.log(str.slice(-1));
+// console.log(str.slice(0,-2));
+// console.log(str.slice(4));
+// console.log(str.replace("largest" , "smallest"))
+// console.log(str.replaceAll("largest" ,"smallest"));
+// console.log(str.replace(/largest/g , "smallest"));
+
+
+// var num = 45.762
+// console.log(num);
+// console.log(num.toFixed(2));
+// console.log(parseFloat(num));
+// console.log(Number(num));
+// console.log(Math.floor(Math.random()*num.length));
+
+// // string methods charAt, replace, lastIndexOf, slice, splice(not applicable), toLowerCase, toUpperCase length
+// var str = "My Journey In Journey"
+// var str2 = "Javascript"
+// var str3 = `Faiza`
+// var str4 = 'random str'
+// var emptyStr = "";
+// console.log(str[0])// M
+// // console.log(str.slice(3, 10));
+// // console.log(str.slice(3));
+// // console.log(str.slice(-13));
+// // console.log(str.charAt(0)); //M
+// // console.log(str.lastIndexOf('Journey'));
+// // console.log(str.indexOf('y')); // -1, address
+// // //"My Journey In Journey"
+// // console.log(str.replace(/Journey/g, "dutyfull"));
+// // var newStr = str.replace(/Journey/g, "dutyfull");
+// // console.log(newStr.toUpperCase())
+// // var name = "miss faiza aziz khan";
+// // var newName = name[0].toUpperCase() + name.slice(1, 6)
+// // + name[6].toUpperCase() + name.slice(7, 11) + name[11].toUpperCase()
+// //  + name.slice(12)
+// // console.log(newName);
+// // console.log(name.indexOf(' ')); //4
+// var name = "miss faiza aziz khan";
+// console.log(name.split(" ")) //it returns array
+// var arrName = name.split(" ");
+// var titlecase =[]
+// for(let i = 0; i < arrName.length; i++) { // miss faiza
+// var cap = arrName[i].charAt(0).toUpperCase() //M F
+// var fullname = cap + arrName[i].slice(1)
+// titlecase.push(fullname)
+// }
+// console.log("🚀 ~ file: quiz2.js:32 ~ titlecase:", titlecase)
+// var newName = titlecase.join(' ')
+// console.log("🚀 ~ file: quiz2.js:35 ~ newName:", newName)
+
+// var date =  new Date();
+// console.log(date);
+// console.log(Date.now()); // ms
+// console.log(date.getTime()); //ms
+// console.log(date.setDate(1));
+// console.log(date);
+
+// // 
+// var  str = "faiza aziz khan"
+// var strNew = str.split(" ")
+// var titleCase = []
+// for(let i = 0; i < strNew.length; i++){
+//     // console.log(strNew[i].charAt(0))
+//     var cap = strNew[i].charAt(0).toUpperCase()
+//     titleCase.push(cap + strNew[i].slice(1))
+// }
+// console.log("🚀 ~ file: function.js:182 ~ strNew:", titleCase.join(" "))
+
+// // console.log("🚀 ~ file: function.js:178 ~ strNew:", strNew)
+
+// // when the function is assign in variable is called expression function
+// var add2 = function (){  // function expression.
+//     console.log(2+5)
+// }
+
+// // when we call a funciton before it makes .. this is called hoisting.
+// // that means javascript set all funciton and variable on top of file.
+// // those funciton which are called in varibale will not go for hoisting by javascript
+
+
+// // var outside any function are of global scope. that means if we call directly that 
+// // var in fucntion it will get those varibales without providing in any argument.
+
+// function addSquare(a,b){ // nested funciton means we can call fucntion inside another fucntion.
+    
+// }
+
+
+// var age = +prompt('Enter your age')
+// switch (true) {
+//     case age > 18:
+//         console.log("Old enough")
+//         break;
+//     case age < 18:
+//         console.log("Too young")
+//         break;
+//     default:
+//         console.log("eligible")
+//         break;
+    
+// }
+
+
+
+// var str =  "Pakistvaran is the 33rd-largest country in the world by area and the second largest in South Asia"
+// var extract = str.substr(1,10)
+// console.log("🚀 ~ file: quiz-2:120 ~ extract:", extract)
+
+var str1 = "abc | lkjlk , kjkuffssccca wre"
+var str2 = "pakistan karachi"
+var res = str2.concat(str2)
+console.log("🚀 ~ file: quiz-2:125 ~ res:", res)
+console.log(str1.trim().length);
+console.log("🚀 ~ file: quiz-2:123 ~ str1:", str1.length)
+console.log(str1.match(/c/));
+// console.log(str1[3]);
+

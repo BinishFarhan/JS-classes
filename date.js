@@ -7,8 +7,8 @@
 
 // new is keyword use with  Date to get date in readable format. 
 
-// var date = new Date()
-// console.log("🚀 ~ file: date.js:9 ~ date:", date)
+var date = new Date()
+console.log("🚀 ~ file: date.js:9 ~ date:", date)
 // we always use new with date
 
 // it gives result in object data type..
@@ -81,7 +81,7 @@
 // console.log(birthDay.fromNow())
 
 
-// var birthDay = new Date("6/21/1989")
+// var birthDay = new Date()
 // console.log("🚀 ~ file: date.js:78 ~ birthDay:", birthDay)
 
 
@@ -105,7 +105,7 @@
 // birthDay.setFullYear(2024);
 // console.log("🚀 ~ file: date.js:96 ~ birthDay:", birthDay)
 
-// we can set time day date year on previous or future and on current..
+// we can set date year on previous or future and on current..
 
 // ==========FUNCTIONS USED FOR GETTING DATES...
 

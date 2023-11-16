@@ -1,6 +1,6 @@
 // difference between while and for is :
 // in for loop we know at what length it has to run.
-// in while loop we dun know how long it will run.
+// in while loop we do know how many iteration it will do OR it can also work when we dont know the no of iteration.(ex below from new book).
 // i is a counter or pointer.
 // in while loop:
 // we initilize i outside body .  {} are body of while loop.

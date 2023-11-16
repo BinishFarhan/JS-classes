@@ -21,6 +21,8 @@
 
 // to capitilize first letter of a word.
 // var city = "karachi";
+// var cap = city.charAt(0).toUpperCase()+ city.slice(1)
+// console.log("🚀 ~ file: string.js:25 ~ cap:", cap)
 // var firstChar = city.slice(0, 1);
 // var capitalFirst = firstChar.toUpperCase();
 // console.log("🚀 ~ file: strings.js:11 ~ firstChar:", firstChar)
@@ -100,7 +102,6 @@
 // var city = "karachi";
 // var cityUpdated = city.charAt(0).toUpperCase() + city.slice(1)
 // console.log("🚀 ~ file: string.js:66 ~ cityUpdated:", cityUpdated)
-
 
 
 //  INDEX OF
@@ -235,12 +236,12 @@ console.log(text)*/
 //METHOD OF split 
 // it split string and form its array.
 
-var name = "Binish Farooq"
-console.log(name.split("")) // it split string into individual letter( each letter have new index)
-console.log(name.split(" ")) // it split with space. ["Binish" , "Farooq"]
-var name1 = "Binish-Fahan"
-console.log(name1.split("-")) // it split with space. ["Binish" , "Farooq"]
-console.log(name1.split()) // it split with space. ["Binish" , "Farooq"]
+// var name = "Binish Farooq"
+// console.log(name.split("")) // it split string into individual letter( each letter have new index)
+// console.log(name.split(" ")) // it split with space. ["Binish" , "Farooq"]
+// var name1 = "Binish-Fahan"
+// console.log(name1.split("-")) // it split with space. ["Binish" , "Farooq"]
+// console.log(name1.split()) // it split with space. ["Binish" , "Farooq"]
 
 
 
