@@ -52,40 +52,40 @@
 
 // changing image using fucntion.
 
-function imageChange(e){ // e will receive image tag of html here.
- console.log(e)
- e.src = "./images/with apples.jpeg"}
+// function imageChange(e){ // e will receive image tag of html here.
+//  console.log(e)
+//  e.src = "./images/with apples.jpeg"}
 
 
-function zoomImage(e){ 
-// to change style of picture while using function.
-e.style.transform = "scale(1.5)"
-e.style.transition = "3s"
-}
-function clearImage(e){ 
-    // to change style of picture while using function.
-    e.style.transform = "scale(1)"
-    e.style.transition = "3s"
-    }
+// function zoomImage(e){ 
+// // to change style of picture while using function.
+// e.style.transform = "scale(1.5)"
+// e.style.transition = "3s"
+// }
+// function clearImage(e){ 
+//     // to change style of picture while using function.
+//     e.style.transform = "scale(1)"
+//     e.style.transition = "3s"
+//     }
 
 // on input fields when form submit on press enter.. 
 // event of on key up will use in html tags.
-function abc(){
-    // console.log('test')
-    // when we call function through any event.. we use event keyword of js.
-    // console.log(event)//  it shows which key pressed and details about it.
-    console.log(event.keyCode)// from this we get ascii code of the pressed key.
+// function abc(){
+//     // console.log('test')
+//     // when we call function through any event.. we use event keyword of js.
+//     // console.log(event)//  it shows which key pressed and details about it.
+//     console.log(event.keyCode)// from this we get ascii code of the pressed key.
     //event.key will show pressed key.
     // if(event.keyCode === 13){
     //     console.log('submit')
     // }
-}
+// }
 
 // to use keyboard of calculator
 // window global object of js.. everything store in this object.. and browser will understand from this.
 // some events are for windows.
 // console.log(window)
-window.onkeydown = abc // this event calls the function by itself.
+// window.onkeydown = abc // this event calls the function by itself.
 
 
 // DOM is tree of html of website.
@@ -106,18 +106,23 @@ window.onkeydown = abc // this event calls the function by itself.
 
 
 // attributes will show all the attributes and get attribute will required param.
-var div =document.getElementById('prac')
-function para(){
-var para = document.createElement('p')
-para.textContent = "Textual content comes in many forms, including. semantically in paragraphs, headings, lists and tables; visually in images, infographics and fliers and. programmatically in alternative text, closed captions and transcriptions"
-para.setAttribute("class" , "para")
-div.insertBefore(para , document.getElementById('button'))
+// var div =document.getElementById('prac')
+// function para(){
+// var para = document.createElement('p')
+// para.textContent = "Textual content comes in many forms, including. semantically in paragraphs, headings, lists and tables; visually in images, infographics and fliers and. programmatically in alternative text, closed captions and transcriptions"
+// para.setAttribute("class" , "para")
+// div.insertBefore(para , document.getElementById('button'))
+// div.style.backgroundColor = "yellow"
 
-}
-
+// }
+// for styling set attribute we used . 
 // by default it shows aour append child always at last.
 // to place it on our required we insertbefore.
 
-console.log(document.querySelector("p"))
+// to set onclick on button by js. use add eventlistener.
+// div.addEventListener("click" , para)
+
+
+// console.log(document.querySelector("p"))
 
 

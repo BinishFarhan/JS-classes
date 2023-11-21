@@ -128,3 +128,34 @@ console.log("🚀 ~ file: quiz-2:123 ~ str1:", str1.length)
 console.log(str1.match(/c/));
 // console.log(str1[3]);
 
+
+function vowels(str){
+    let count = 0
+    for(let i = 0 ; i <str.length; i++){
+        if (str[i] === "a" ||str[i] === "e" ||str[i] === "i" ||str[i] === "o" ||str[i] === "u" ){
+            count++
+        }
+                
+    }
+    return `vowels = ${count}`;
+}
+
+var str = "PAKISTAN zindabad"
+console.log(vowels(str.toLowerCase()))
+
+
+function space(str){
+    let count = 0
+    for(let i = 0 ; i <str.length; i++){
+        if (str[i] === " " ){
+            count++
+        }
+          
+    }
+    return `space = ${count}`;
+}
+
+var str = "PAKISTAN zindabad"
+console.log(space(str.toLowerCase()))
+
+
