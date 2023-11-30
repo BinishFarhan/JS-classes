@@ -90,14 +90,14 @@
 
 // DOM is tree of html of website.
 // dom can be manipulated by javascript by using "document" keyword.
-// node 
+// node: is every element of HTMl is called node
 // textContent is used to insert text between li. (instead of createTextNode and then make it append child.
 // but it is only useful for text.if you want to make another element u have to create element and then make it append child.)
 
 // we can target element by tag name also.
 // but it takes html collection
 
-// // it takes enter as a text.
+// // it takes enter as a text. 
 // var ul = document.getElementsByTagName("ul")
 // console.log("🚀 ~ file: DOM.js:102 ~ ul:", ul[0].childNodes) // in this line it shows text repeatedly but first text is because 
 // console.log("🚀 ~ file: DOM.js:102 ~ ul:", ul[0].children[0].text)
@@ -126,3 +126,17 @@
 // console.log(document.querySelector("p"))
 
 
+// ======== to get element from a specific div ===== >
+function titleCase(){
+    var cntrydiv = document.getElementById('cntrydiv')    
+    var conutyr = cntrydiv.getElementsByTagName('ul')
+    var firstChild = conutyr[0].childNodes
+    // var cap;
+    // console.log("🚀 ~ file: bom.js:40 ~ titleCase ~ conutyr:", conutyr[0].childNodes.textContent)
+    for(let i = 0; i < firstChild.length; i++){
+        var titleCase = firstChild[i].textContent.charAt(0).toUpperCase()
+        var  cap = titleCase + firstChild[i].textContent.slice(1)
+        console.log(cap)
+        firstChild[i].textContent = cap
+    }
+}

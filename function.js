@@ -173,3 +173,26 @@
 //     }, 2000)
 // }
 
+
+///// ======= self calling funciton =====
+(function abc(){
+    console.log("my name")
+}())
+
+
+// ======= recursive  function ...( calling itself infinite time) without condition it is wrong way)
+// function counting(){
+//     console.log("name")
+//     counting()
+// }
+// counting() 
+
+// =======right way to use recursive function======>
+function counting(num){
+    console.log(num)
+    let num2 = num - 1 // store in variable so next time calling in function it wil have variables.
+    if(num2 > 0){ // now it print till 1 because of condition. before condition it run in -values.
+    counting(num2) }// 
+}
+counting(10) 
+

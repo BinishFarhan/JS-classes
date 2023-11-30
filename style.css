@@ -26,3 +26,11 @@
     border-radius: 20%;
     background-color: lightblue;
 }
+
+.checkingClass{
+    border: 2px solid blue;
+}
+
+.color{
+    color: aqua;
+}
