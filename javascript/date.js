@@ -174,3 +174,14 @@ console.log("🚀 ~ file: date.js:9 ~ date:", date)
 // displayClock()
 // setInterval(displayClock, 1000)
 
+//=========== to practice setTimeout ======>
+// var abc = 10
+
+// setTimeout(function () {
+//     setInterval(function () {
+//         for (let i = abc; i >= 0; i--) {
+//             console.log(i)
+//         }
+//     }, 1000)
+// },1000)
+

@@ -7,15 +7,12 @@
 function win() {
     var wind = window.open("https://www.google.com/", "mywin", "width=400,height=400,top=100,left=100");
     console.log(wind)
-
-
 }
 
 function fb() {
-    // window.location.assign("https://www.facebook.com/")  // url .. maintain history
-    window.location.replace("https://www.facebook.com/")  // current history remove. 
-    // window.location.href = "https://www.google.com/"  /// url
-
+    // window.location.assign("https://www.facebook.com/")  // url .. maintain history.. browser back button works..
+    // window.location.replace("https://www.facebook.com/")  // current history remove. browser back button not works.
+    window.location.href = "https://www.google.com/"  /// url // maintain history .. browser back button works..
 }
 
 
@@ -23,3 +20,5 @@ function reload() {
     // console.log(window.location) // 
     window.location.reload()
 }
+
+console.log(document.firstChild);

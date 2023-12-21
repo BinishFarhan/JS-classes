@@ -34,3 +34,12 @@
 .color{
     color: aqua;
 }
+
+
+
+.green{
+    background-color: aqua;
+}
+.blue{
+    border: 2px solid red;
+}

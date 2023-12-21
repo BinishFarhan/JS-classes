@@ -1,3 +1,4 @@
+// ==== array is collection of data =====>
 // ======= ARRAY ====== use length pop and push..
 
 // var students = ['faria' , 'Maria' , 'atrooba' , 'hania']
