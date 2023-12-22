@@ -1,4 +1,7 @@
+
+
 // // ==== arrow funciton =====>
+// // arrow function also called lambda function.
 // // work same as funciton only syntax change
 
 // // =====these are arrow funciton =====>
