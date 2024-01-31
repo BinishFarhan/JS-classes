@@ -160,27 +160,29 @@
 
 // practice from new book.
 
-var num = Math.round(Math.random() * 5)
-console.log("🚀 ~ file: switch.js:164 ~ num:", num)
-var userQ = prompt("write your question")
-var answer;
-switch(num){
-    case 1:
-        answer = "after 2 years"
-        break;
-    case 2:
-        answer = "after 5 years"
-    default:
-        answer = "jst w8"
-}
+// var num = Math.round(Math.random() * 5)
+// console.log("🚀 ~ file: switch.js:164 ~ num:", num)
+// var userQ = prompt("write your question")
+// var answer;
+// switch(num){
+//     case 1:
+//         answer = "after 2 years"
+//         break;
+//     case 2:
+//         answer = "after 5 years"
+//         break;
+//     default:
+//         answer = "jst w8"
+// }
 
-console.log(userQ)
-console.log(answer)
+// console.log(userQ)
+// console.log(answer)
 
   
 // generate random # 0-5 and use switch to display the num
 var rand = Math.round(Math.random() * 5); // 0.1 -0.9
 console.log("🚀 ~ file: switch.js:76 ~ rand:", rand);
+ 
 switch (rand) {
   case 0:
     console.log("u entered 0");

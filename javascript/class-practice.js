@@ -1,7 +1,7 @@
 // 
 // its a method in which we use variable to store our answer
-// var arr = [2,3,4,5,'f', 't', 'r', "alkdjf"]
-// let count = 0
+var arr = [2,3,4,5,'f', 't', 'r', "alkdjf"]
+let count = 0
 // // for(let i = 1; i<=arr.length; i++){
 // //  count++;
 // //  // count = count + 1
@@ -14,11 +14,11 @@
 // console.log("length of arr =" , count)
 
 
-// var arr = [2,3,4,5,'f', 't', 'r', "alkdjf"]
-// for(let i = 1; i<= arr.length; i++){
-//  lengthOfArr = i
-// }
-// console.log("length of arr =" + lengthOfArr)
+var arr = [2,3,4,5,'f', 't', 'r', "alkdjf"]
+for(let i = 1; i<= arr.length; i++){
+ lengthOfArr = i
+}
+console.log("length of arr =" + lengthOfArr)
 
 // solution 2
 // var a = [1,3,'a', 'b', 'f', 'a'];

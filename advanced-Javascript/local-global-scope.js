@@ -22,3 +22,10 @@
 
 
 // ===== classic function always hoisting.. but if funciton made by function expression it will not be hoist.======>
+// hoisting will always take var on the top of code not its value.
+// its value assign when current line will run. before that line if we call it, it will show undefined.
+
+// while when it hoist whole function can call the fucntion before the line comes where it is made.
+// const can't be updated 
+
+

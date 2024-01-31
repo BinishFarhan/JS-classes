@@ -8,7 +8,15 @@
 // new is keyword use with  Date to get date in readable format. 
 
 var date = new Date()
+// console.log("🚀 ~ file: date.js:9 ~ date:", date.toLocaleDateString())
+// console.log("🚀 ~ file: date.js:9 ~ date:", date.toLocaleString())
+// console.log("🚀 ~ file: date.js:9 ~ date:", date.toDateString())
+// console.log("🚀 ~ file: date.js:9 ~ date:", date.toLocaleTimeString())
+// console.log("🚀 ~ file: date.js:9 ~ date:", date.toISOString())
+// console.log("🚀 ~ file: date.js:9 ~ date:", date.toJSON())
 console.log("🚀 ~ file: date.js:9 ~ date:", date)
+
+
 // we always use new with date
 
 // it gives result in object data type..

@@ -267,8 +267,11 @@
     made: "Suzuki"
 }
 
-for(var key in newCar){ // key is a variable name we can write abcd anything here it will return keys only. 
-    // document.write(key) // in this line it will print key of object.
-    // but we want to write its values so the syntax is....
-    document.write(`${key} : ${newCar[key]} <br>`) // newCar[key] is syntax to print values of keys in object.
-}
+// for(var key in newCar){ // key is a variable name we can write abcd anything here it will return keys only. 
+//     // document.write(key) // in this line it will print key of object.
+//     // but we want to write its values so the syntax is....
+//     document.write(`${key} : ${newCar[key]} <br>`) // newCar[key] is syntax to print values of keys in object.
+// }
+// to check whether the property 
+console.log(newCar.hasOwnProperty("made"));
+console.log("name" in newCar)

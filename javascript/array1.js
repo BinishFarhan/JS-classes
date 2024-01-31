@@ -26,10 +26,10 @@
 /// Topic Array
 // splice and slice work in sequence
 
-// var pets = ['dog' , 'cat' , 'fly' , 'bug' , 'butterfly' , 'insects'];
-// var wildAnimals = pets.slice(-1)
-// console.log("🚀 ~ file: array1.js:31 ~ wildAnimals:", wildAnimals)
-// console.log("🚀 ~ file: array1.js:30 ~ pets:", pets)
+var pets = ['dog' , 'cat' , 'fly' , 'bug' , 'butterfly' , 'insects'];
+var wildAnimals = pets.slice(-2)
+console.log("🚀 ~ file: array1.js:31 ~ wildAnimals:", wildAnimals)
+console.log("🚀 ~ file: array1.js:30 ~ pets:", pets)
 // pets.splice(1 , 1 , 'bug');
 // console.log("🚀 ~ file: array1.js:34 ~ pets:", pets)
 // // when required last 1 give -2 
